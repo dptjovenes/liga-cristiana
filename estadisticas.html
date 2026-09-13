@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estadísticas - Liga Cristiana</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo"><span class="cross-icon">┼</span> Liga Cristiana</div>
+    <nav class="nav-links">
+      <a href="index.html">Inicio</a>
+      <a href="calendario.html">Calendario</a>
+      <a href="equipos.html">Equipos</a>
+      <a href="estadisticas.html" class="active">Estadísticas</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2 class="section-title">Tabla de Goleadores</h2>
+      <div class="table-container">
+        <table class="data-table" id="tabla-goleadores">
+          <thead>
+            <tr>
+              <th>Pos</th>
+              <th class="text-left">Jugador</th>
+              <th class="text-left">Equipo</th>
+              <th>Goles</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Se llena automáticamente con JS -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Liga de Fútbol Cristiana</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

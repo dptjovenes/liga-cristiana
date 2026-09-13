@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liga de Fútbol Cristiana</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Fuente de Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Encabezado / Navegación -->
+  <header class="navbar">
+    <div class="logo">
+      <span class="cross-icon">┼</span> Liga Cristiana
+    </div>
+    <nav class="nav-links">
+      <a href="index.html" class="active">Inicio</a>
+      <a href="calendario.html">Calendario</a>
+      <a href="equipos.html">Equipos</a>
+      <a href="estadisticas.html">Estadísticas</a>
+    </nav>
+  </header>
+
+  <!-- Banner Principal -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Liga de Fútbol Cristiana</h1>
+      <p class="verse">"Corred de tal manera que obtengáis el premio." — 1 Corintios 9:24</p>
+    </div>
+  </section>
+
+  <!-- Contenido Principal -->
+  <main class="container">
+
+    <!-- Sección Próximos Partidos -->
+    <section class="section">
+      <h2 class="section-title">Próxima Jornada</h2>
+      <div class="matches-grid" id="proxima-jornada">
+        <!-- Tarjeta de Partido 1 -->
+        <div class="match-card">
+          <div class="team"><span>Fe y Victoria</span></div>
+          <div class="vs">VS</div>
+          <div class="team"><span>Luz del Mundo</span></div>
+          <div class="match-info">Sábado - 10:00 AM</div>
+        </div>
+        <!-- Tarjeta de Partido 2 -->
+        <div class="match-card">
+          <div class="team"><span>Gracia FC</span></div>
+          <div class="vs">VS</div>
+          <div class="team"><span>Siervos FC</span></div>
+          <div class="match-info">Sábado - 11:30 AM</div>
+        </div>
+        <!-- Tarjeta de Partido 3 -->
+        <div class="match-card">
+          <div class="team"><span>Esperanza Real</span></div>
+          <div class="vs">VS</div>
+          <div class="team"><span>Antorcha FC</span></div>
+          <div class="match-info">Sábado - 01:00 PM</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Tabla de Posiciones -->
+    <section class="section">
+      <h2 class="section-title">Tabla de Clasificación</h2>
+      <div class="table-container">
+        <table class="data-table" id="tabla-posiciones">
+          <thead>
+            <tr>
+              <th>Pos</th>
+              <th class="text-left">Equipo</th>
+              <th>PJ</th>
+              <th>PG</th>
+              <th>PE</th>
+              <th>PP</th>
+              <th>GF</th>
+              <th>GC</th>
+              <th>DG</th>
+              <th>Pts</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Aquí cargaremos los datos reales con JS en el Paso 2 -->
+            <tr>
+              <td>1</td>
+              <td class="text-left team-name">Fe y Victoria</td>
+              <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+              <td><strong>0</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Liga de Fútbol Cristiana | Promoviendo el deporte y los valores</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
