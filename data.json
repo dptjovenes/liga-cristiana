@@ -1,0 +1,70 @@
+{
+  "equipos": [
+    { "id": 1, "nombre": "Equipo A", "pj": 0, "pg": 0, "pe": 0, "pp": 0, "gf": 0, "gc": 0, "pts": 0 },
+    { "id": 2, "nombre": "Equipo B", "pj": 0, "pg": 0, "pe": 0, "pp": 0, "gf": 0, "gc": 0, "pts": 0 },
+    { "id": 3, "nombre": "Equipo C", "pj": 0, "pg": 0, "pe": 0, "pp": 0, "gf": 0, "gc": 0, "pts": 0 },
+    { "id": 4, "nombre": "Equipo D", "pj": 0, "pg": 0, "pe": 0, "pp": 0, "gf": 0, "gc": 0, "pts": 0 },
+    { "id": 5, "nombre": "Equipo E", "pj": 0, "pg": 0, "pe": 0, "pp": 0, "gf": 0, "gc": 0, "pts": 0 },
+    { "id": 6, "nombre": "Equipo F", "pj": 0, "pg": 0, "pe": 0, "pp": 0, "gf": 0, "gc": 0, "pts": 0 }
+  ],
+  "proximaJornada": [
+    { "local": "Equipo A", "visitante": "Equipo B", "horario": "Domingo 20 Sep - 08:00 AM" },
+    { "local": "Equipo C", "visitante": "Equipo D", "horario": "Domingo 20 Sep - 09:30 AM" },
+    { "local": "Equipo E", "visitante": "Equipo F", "horario": "Domingo 20 Sep - 11:00 AM" }
+  ],
+  "jornadas": [
+    {
+      "numero": 1,
+      "fecha": "Domingo 20 de Septiembre",
+      "partidos": [
+        { "local": "Equipo A", "resLocal": "-", "visitante": "Equipo B", "resVisitante": "-" },
+        { "local": "Equipo C", "resLocal": "-", "visitante": "Equipo D", "resVisitante": "-" },
+        { "local": "Equipo E", "resLocal": "-", "visitante": "Equipo F", "resVisitante": "-" }
+      ]
+    },
+    {
+      "numero": 2,
+      "fecha": "Domingo 27 de Septiembre",
+      "partidos": [
+        { "local": "Equipo F", "resLocal": "-", "visitante": "Equipo A", "resVisitante": "-" },
+        { "local": "Equipo B", "resLocal": "-", "visitante": "Equipo C", "resVisitante": "-" },
+        { "local": "Equipo D", "resLocal": "-", "visitante": "Equipo E", "resVisitante": "-" }
+      ]
+    },
+    {
+      "numero": 3,
+      "fecha": "Domingo 4 de Octubre",
+      "partidos": [
+        { "local": "Equipo A", "resLocal": "-", "visitante": "Equipo C", "resVisitante": "-" },
+        { "local": "Equipo E", "resLocal": "-", "visitante": "Equipo B", "resVisitante": "-" },
+        { "local": "Equipo F", "resLocal": "-", "visitante": "Equipo D", "resVisitante": "-" }
+      ]
+    },
+    {
+      "numero": 4,
+      "fecha": "Domingo 11 de Octubre",
+      "partidos": [
+        { "local": "Equipo D", "resLocal": "-", "visitante": "Equipo A", "resVisitante": "-" },
+        { "local": "Equipo B", "resLocal": "-", "visitante": "Equipo F", "resVisitante": "-" },
+        { "local": "Equipo C", "resLocal": "-", "visitante": "Equipo E", "resVisitante": "-" }
+      ]
+    },
+    {
+      "numero": 5,
+      "fecha": "Domingo 18 de Octubre",
+      "partidos": [
+        { "local": "Equipo A", "resLocal": "-", "visitante": "Equipo E", "resVisitante": "-" },
+        { "local": "Equipo B", "resLocal": "-", "visitante": "Equipo D", "resVisitante": "-" },
+        { "local": "Equipo C", "resLocal": "-", "visitante": "Equipo F", "resVisitante": "-" }
+      ]
+    }
+  ],
+  "plantillas": [
+    {
+      "equipo": "Equipo A",
+      "capitan": "Por definir",
+      "jugadores": ["Jugador 1", "Jugador 2", "Jugador 3"]
+    }
+  ],
+  "goleadores": []
+}
