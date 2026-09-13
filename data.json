@@ -3,63 +3,58 @@
     { "equipo": "Sinaí", "pj": 0, "pg": 0, "pe": 0, "pp": 0, "pts": 0 },
     { "equipo": "3ra Bautista", "pj": 0, "pg": 0, "pe": 0, "pp": 0, "pts": 0 },
     { "equipo": "El Corderito", "pj": 0, "pg": 0, "pe": 0, "pp": 0, "pts": 0 },
-    { "equipo": "San Pedro", "pj": 0, "pg": 0, "pe": 0, "pp": 0, "pts": 0 },
+    { "equipo": "Pedro", "pj": 0, "pg": 0, "pe": 0, "pp": 0, "pts": 0 },
     { "equipo": "Liga Evangélica", "pj": 0, "pg": 0, "pe": 0, "pp": 0, "pts": 0 },
     { "equipo": "Roca Fuerte", "pj": 0, "pg": 0, "pe": 0, "pp": 0, "pts": 0 }
   ],
-  "jornadas": [
-    {
-      "nombre": "Jornada 1",
-      "partidos": [
-        {
-          "local": "Sinaí",
-          "visitante": "3ra Bautista",
-          "fecha": "Sábado",
-          "hora": "10:00 AM",
-          "cancha": "Cancha Principal"
-        },
-        {
-          "local": "El Corderito",
-          "visitante": "San Pedro",
-          "fecha": "Sábado",
-          "hora": "11:30 AM",
-          "cancha": "Cancha Principal"
-        },
-        {
-          "local": "Liga Evangélica",
-          "visitante": "Roca Fuerte",
-          "fecha": "Sábado",
-          "hora": "01:00 PM",
-          "cancha": "Cancha Principal"
-        }
-      ]
-    }
+  "partidos": [
+    { "local": "Sinaí", "visitante": "Roca Fuerte", "fecha": "Dom 20 Sep 2026", "hora": "3:30 PM", "cancha": "Campo Principal" },
+    { "local": "3ra Bautista", "visitante": "Liga Evangélica", "fecha": "Dom 20 Sep 2026", "hora": "4:15 PM", "cancha": "Campo Principal" },
+    { "local": "El Corderito", "visitante": "Pedro", "fecha": "Dom 20 Sep 2026", "hora": "5:00 PM", "cancha": "Campo Principal" },
+
+    { "local": "Roca Fuerte", "visitante": "Pedro", "fecha": "Dom 27 Sep 2026", "hora": "3:30 PM", "cancha": "Campo Principal" },
+    { "local": "Liga Evangélica", "visitante": "El Corderito", "fecha": "Dom 27 Sep 2026", "hora": "4:15 PM", "cancha": "Campo Principal" },
+    { "local": "Sinaí", "visitante": "3ra Bautista", "fecha": "Dom 27 Sep 2026", "hora": "5:00 PM", "cancha": "Campo Principal" },
+
+    { "local": "3ra Bautista", "visitante": "Roca Fuerte", "fecha": "Dom 04 Oct 2026", "hora": "3:30 PM", "cancha": "Campo Principal" },
+    { "local": "El Corderito", "visitante": "Sinaí", "fecha": "Dom 04 Oct 2026", "hora": "4:15 PM", "cancha": "Campo Principal" },
+    { "local": "Pedro", "visitante": "Liga Evangélica", "fecha": "Dom 04 Oct 2026", "hora": "5:00 PM", "cancha": "Campo Principal" },
+
+    { "local": "Roca Fuerte", "visitante": "Liga Evangélica", "fecha": "Dom 11 Oct 2026", "hora": "3:30 PM", "cancha": "Campo Principal" },
+    { "local": "Sinaí", "visitante": "Pedro", "fecha": "Dom 11 Oct 2026", "hora": "4:15 PM", "cancha": "Campo Principal" },
+    { "local": "3ra Bautista", "visitante": "El Corderito", "fecha": "Dom 11 Oct 2026", "hora": "5:00 PM", "cancha": "Campo Principal" },
+
+    { "local": "El Corderito", "visitante": "Roca Fuerte", "fecha": "Dom 18 Oct 2026", "hora": "3:30 PM", "cancha": "Campo Principal" },
+    { "local": "Pedro", "visitante": "3ra Bautista", "fecha": "Dom 18 Oct 2026", "hora": "4:15 PM", "cancha": "Campo Principal" },
+    { "local": "Liga Evangélica", "visitante": "Sinaí", "fecha": "Dom 18 Oct 2026", "hora": "5:00 PM", "cancha": "Campo Principal" },
+
+    { "local": "Roca Fuerte", "visitante": "Sinaí", "fecha": "Dom 25 Oct 2026", "hora": "3:30 PM", "cancha": "Campo Principal" },
+    { "local": "Liga Evangélica", "visitante": "3ra Bautista", "fecha": "Dom 25 Oct 2026", "hora": "4:15 PM", "cancha": "Campo Principal" },
+    { "local": "Pedro", "visitante": "El Corderito", "fecha": "Dom 25 Oct 2026", "hora": "5:00 PM", "cancha": "Campo Principal" },
+
+    { "local": "Pedro", "visitante": "Roca Fuerte", "fecha": "Dom 01 Nov 2026", "hora": "3:30 PM", "cancha": "Campo Principal" },
+    { "local": "El Corderito", "visitante": "Liga Evangélica", "fecha": "Dom 01 Nov 2026", "hora": "4:15 PM", "cancha": "Campo Principal" },
+    { "local": "3ra Bautista", "visitante": "Sinaí", "fecha": "Dom 01 Nov 2026", "hora": "5:00 PM", "cancha": "Campo Principal" },
+
+    { "local": "Roca Fuerte", "visitante": "3ra Bautista", "fecha": "Dom 08 Nov 2026", "hora": "3:30 PM", "cancha": "Campo Principal" },
+    { "local": "Sinaí", "visitante": "El Corderito", "fecha": "Dom 08 Nov 2026", "hora": "4:15 PM", "cancha": "Campo Principal" },
+    { "local": "Liga Evangélica", "visitante": "Pedro", "fecha": "Dom 08 Nov 2026", "hora": "5:00 PM", "cancha": "Campo Principal" },
+
+    { "local": "Liga Evangélica", "visitante": "Roca Fuerte", "fecha": "Dom 15 Nov 2026", "hora": "3:30 PM", "cancha": "Campo Principal" },
+    { "local": "Pedro", "visitante": "Sinaí", "fecha": "Dom 15 Nov 2026", "hora": "4:15 PM", "cancha": "Campo Principal" },
+    { "local": "El Corderito", "visitante": "3ra Bautista", "fecha": "Dom 15 Nov 2026", "hora": "5:00 PM", "cancha": "Campo Principal" },
+
+    { "local": "Roca Fuerte", "visitante": "El Corderito", "fecha": "Dom 22 Nov 2026", "hora": "3:30 PM", "cancha": "Campo Principal" },
+    { "local": "3ra Bautista", "visitante": "Pedro", "fecha": "Dom 22 Nov 2026", "hora": "4:15 PM", "cancha": "Campo Principal" },
+    { "local": "Sinaí", "visitante": "Liga Evangélica", "fecha": "Dom 22 Nov 2026", "hora": "5:00 PM", "cancha": "Campo Principal" }
   ],
+  "goleadores": [],
   "plantillas": [
-    {
-      "equipo": "Sinaí",
-      "jugadores": []
-    },
-    {
-      "equipo": "3ra Bautista",
-      "jugadores": []
-    },
-    {
-      "equipo": "El Corderito",
-      "jugadores": []
-    },
-    {
-      "equipo": "San Pedro",
-      "jugadores": []
-    },
-    {
-      "equipo": "Liga Evangélica",
-      "jugadores": []
-    },
-    {
-      "equipo": "Roca Fuerte",
-      "jugadores": []
+    { "equipo": "Sinaí", "jugadores": [] },
+    { "equipo": "3ra Bautista", "jugadores": [] },
+    { "equipo": "El Corderito", "jugadores": [] },
+    { "equipo": "Pedro", "jugadores": [] },
+    { "equipo": "Liga Evangélica", "jugadores": [] },
+    { "equipo": "Roca Fuerte", "jugadores": [] }
+  ]
     }
-  ],
-  "goleadores": []
-}
