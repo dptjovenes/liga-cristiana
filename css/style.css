@@ -176,4 +176,86 @@ footer {
     gap: 1rem;
   }
   }
+
+/* --- Botón Desplegable del Reglamento --- */
+.rules-toggle-btn {
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 18px 24px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1e293b;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.2s ease;
+  font-family: inherit;
+}
+
+.rules-toggle-btn:hover {
+  background-color: #f8fafc;
+}
+
+.rules-toggle-btn .chevron {
+  font-size: 0.9rem;
+  transition: transform 0.3s ease;
+  color: #64748b;
+}
+
+.rules-content {
+  margin-top: 15px;
+}
+
+.rules-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.rule-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+}
+
+.highlight-card {
+  border-left: 4px solid #f59e0b;
+}
+
+.rule-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 8px;
+}
+
+.rule-icon {
+  font-size: 1.4rem;
+}
+
+.rule-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #1e293b;
+}
+
+.rule-list {
+  padding-left: 18px;
+  margin: 0;
+  color: #475569;
+}
+
+.rule-list li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  }
   
